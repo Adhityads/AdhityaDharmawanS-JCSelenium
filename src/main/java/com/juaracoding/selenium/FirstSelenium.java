@@ -2,7 +2,7 @@ package com.juaracoding.selenium;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Main {
+public class FirstSelenium {
     public static void main(String[] args) throws InterruptedException {
         //system property untuk chrome driver
 //        WebDriverManager.chromedriver().setup();
@@ -19,8 +19,8 @@ public class Main {
         String titleName = driver.getTitle();
         System.out.println(titleName);
 
-        WebElement userName = driver.findElement(By.xpath("//*[@id='userName']"));
-        userName.sendKeys("Juara Coding");
+        driver.findElement(By.xpath("//*[@id='userName']")).sendKeys("Juara Coding");
+//        userName.sendKeys("Juara Coding");
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
 
