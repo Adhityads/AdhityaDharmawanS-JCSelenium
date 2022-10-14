@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class ChromeDriverFirst {
+public class ChromeDriverSatu {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "D:\\Bootcamp\\ChromeDriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
