@@ -1,4 +1,4 @@
-package com.juaracoding.selenium.posttest13;
+package com.juaracoding.selenium.posttesttigabelas;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
