@@ -56,16 +56,16 @@ public class SeleniumTwo {
         System.out.println("Immpresive radio clicked use javascript");
         delay(1);
 
-//        driver.get("https://google.com");
-//        System.out.println("Google");
-//        delay(1);
-//        WebElement search = driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input"));
-//        search.sendKeys("juara coding");
-//        search.sendKeys(Keys.ENTER);
-//        System.out.println("Searching Juara Coding");
-//        delay(1);
-//        driver.navigate().back();
-//        System.out.println("Navigate Back");
+        driver.get("https://google.com");
+        System.out.println("Google");
+        delay(1);
+        WebElement search = driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input"));
+        search.sendKeys("juara coding");
+        search.sendKeys(Keys.ENTER);
+        System.out.println("Searching Juara Coding");
+        delay(1);
+        driver.navigate().back();
+        System.out.println("Navigate Back");
 
         delay(3);
 
