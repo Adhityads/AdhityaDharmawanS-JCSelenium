@@ -1,8 +1,8 @@
-package com.juaracoding.selenium;
+package com.juaracoding.selenium.example;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstSelenium {
+public class SeleniumOne {
     public static void main(String[] args) throws InterruptedException {
         //system property untuk chrome driver
 //        WebDriverManager.chromedriver().setup();
