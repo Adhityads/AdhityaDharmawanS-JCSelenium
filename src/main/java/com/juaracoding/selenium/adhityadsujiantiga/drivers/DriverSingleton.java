@@ -1,8 +1,8 @@
-package com.juaracoding.selenium.ujiantiga.drivers;
+package com.juaracoding.selenium.adhityadsujiantiga.drivers;
 
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.DriverStrategy;
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.DriverStrategyImplementer;
-import com.juaracoding.selenium.ujiantiga.utils.Constants;
+import com.juaracoding.selenium.adhityadsujiantiga.drivers.strategies.DriverStrategy;
+import com.juaracoding.selenium.adhityadsujiantiga.drivers.strategies.DriverStrategyImplementer;
+import com.juaracoding.selenium.adhityadsujiantiga.utils.Constants;
 import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;

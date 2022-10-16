@@ -1,6 +1,5 @@
-package com.juaracoding.selenium.ujiantiga.drivers.strategies;
+package com.juaracoding.selenium.adhityadsujiantiga.drivers.strategies;
 
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.DriverStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;

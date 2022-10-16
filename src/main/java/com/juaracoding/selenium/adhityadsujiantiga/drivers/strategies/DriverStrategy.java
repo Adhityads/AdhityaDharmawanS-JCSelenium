@@ -1,4 +1,4 @@
-package com.juaracoding.selenium.ujiantiga.drivers.strategies;
+package com.juaracoding.selenium.adhityadsujiantiga.drivers.strategies;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,6 +1,6 @@
-package com.juaracoding.selenium.ujiantiga.pages;
+package com.juaracoding.selenium.adhityadsujiantiga.pages;
 
-import com.juaracoding.selenium.ujiantiga.drivers.DriverSingleton;
+import com.juaracoding.selenium.adhityadsujiantiga.drivers.DriverSingleton;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

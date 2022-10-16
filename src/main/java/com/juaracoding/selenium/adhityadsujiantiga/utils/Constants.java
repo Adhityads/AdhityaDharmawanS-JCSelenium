@@ -1,4 +1,4 @@
-package com.juaracoding.selenium.ujiantiga.utils;
+package com.juaracoding.selenium.adhityadsujiantiga.utils;
 
 public class Constants {
     public static final int TIMEOUT = 10;

@@ -1,9 +1,6 @@
-package com.juaracoding.selenium.ujiantiga.drivers.strategies;
+package com.juaracoding.selenium.adhityadsujiantiga.drivers.strategies;
 
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.Chrome;
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.DriverStrategy;
-import com.juaracoding.selenium.ujiantiga.drivers.strategies.Firefox;
-import com.juaracoding.selenium.ujiantiga.utils.Constants;
+import com.juaracoding.selenium.adhityadsujiantiga.utils.Constants;
 
 public class DriverStrategyImplementer {
     public static DriverStrategy chooseStrategy(String strategy) {

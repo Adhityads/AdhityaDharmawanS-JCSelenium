@@ -1,12 +1,10 @@
-package com.juaracoding.selenium.ujiantiga;
+package com.juaracoding.selenium.adhityadsujiantiga;
 
-import com.github.dockerjava.core.dockerfile.DockerfileStatement;
-import com.juaracoding.selenium.ujiantiga.drivers.DriverSingleton;
-import com.juaracoding.selenium.ujiantiga.pages.AddToCart;
-import com.juaracoding.selenium.ujiantiga.pages.Login;
-import com.juaracoding.selenium.ujiantiga.pages.Register;
-import com.juaracoding.selenium.ujiantiga.utils.Constants;
-import org.openqa.selenium.JavascriptExecutor;
+import com.juaracoding.selenium.adhityadsujiantiga.drivers.DriverSingleton;
+import com.juaracoding.selenium.adhityadsujiantiga.pages.AddToCart;
+import com.juaracoding.selenium.adhityadsujiantiga.pages.Login;
+import com.juaracoding.selenium.adhityadsujiantiga.pages.Register;
+import com.juaracoding.selenium.adhityadsujiantiga.utils.Constants;
 import org.openqa.selenium.WebDriver;
 
 public class MainApp {
