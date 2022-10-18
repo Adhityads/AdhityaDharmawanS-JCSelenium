@@ -37,10 +37,12 @@ public class Login {
     }
 
     public String getTxtEmployeeInformation(){
+
         return  txtEmployeeInformation.getText();
     }
 
     public String getTxtInvalidLogin(){
+
         return txtInvalidLogin.getText();
     }
 
