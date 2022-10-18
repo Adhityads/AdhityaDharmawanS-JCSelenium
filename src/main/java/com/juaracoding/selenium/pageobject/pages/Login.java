@@ -29,10 +29,12 @@ public class Login {
     @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/p")
     WebElement txtInvalidLogin;
 
+    @FindBy(xpath = "//div[@class='orangehrm-login-slot-wrapper']//div[1]//div[1]//span[1]")
+    WebElement txtRequired;
+
     public void login(String username, String password){
         this.username.sendKeys(username);
         this.password.sendKeys(password);
-        delay(1);
         btnLogin.click();
     }
 
@@ -46,11 +48,10 @@ public class Login {
         return txtInvalidLogin.getText();
     }
 
-    static void delay(int detik) {
-        try {
-            Thread.sleep(1000 * detik);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+    public String getTxtRequired(){
+        return txtRequired.getText();
+
     }
+
+
 }
